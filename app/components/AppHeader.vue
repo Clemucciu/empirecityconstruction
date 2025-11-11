@@ -39,7 +39,7 @@ const { header } = useAppConfig()
       #left
     >
       <NuxtLink :to="header?.to || '/'">
-        <AppLogo class="w-auto h-6 shrink-0" />
+        <AppLogo class="w-auto h-10 shrink-0" />
       </NuxtLink>
     </template>
 
@@ -50,14 +50,6 @@ const { header } = useAppConfig()
       />
 
       <UColorModeButton v-if="header?.colorMode" />
-
-      <template v-if="header?.links">
-        <UButton
-          v-for="(link, index) of header.links"
-          :key="index"
-          v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
-        />
-      </template>
     </template>
 
     <template #body>

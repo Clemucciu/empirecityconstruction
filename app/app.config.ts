@@ -23,13 +23,7 @@ export default defineAppConfig({
       dark: ''
     },
     search: true,
-    colorMode: true,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/empirecitynyc/empirecityconstruction',
-      'target': '_blank',
-      'aria-label': 'GitHub'
-    }]
+    colorMode: true
   },
   footer: {
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
