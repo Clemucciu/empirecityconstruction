@@ -12,7 +12,7 @@ orientation: horizontal
 :hero-background
 
 #title
-Ship Beautiful [Documentation]{.text-primary}.
+Empire City [Construction]{.text-primary}.
 
 #description
 Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
@@ -20,23 +20,23 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
 #links
   :::u-button
   ---
-  to: /getting-started
+  to: /
   size: xl
-  trailing-icon: i-lucide-arrow-right
+  trailing-icon: i-lucide-house
   ---
-  Get started
+  Create
   :::
 
   :::u-button
   ---
-  icon: i-simple-icons-github
+  icon: i-lucide-layers
   color: neutral
   variant: outline
   size: xl
-  to: https://github.com/nuxt-ui-templates/docs
+  to: /
   target: _blank
   ---
-  Use this template
+  Our work
   :::
 
 #default
