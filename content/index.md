@@ -7,43 +7,25 @@ seo:
 ::u-page-hero
 ---
 class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
-orientation: horizontal
 ---
-  :::prose-pre
-  ---
-  code: |
-    export default defineNuxtConfig({
-      modules: [
-        '@nuxt/ui',
-        '@nuxt/content',
-        'nuxt-og-image',
-        'nuxt-llms'
-      ],
-  
-      css: ['~/assets/css/main.css']
-    })
-  filename: nuxt.config.ts
-  ---
-  ```ts [nuxt.config.ts]
-  export default defineNuxtConfig({
-    modules: [
-      '@nuxt/ui',
-      '@nuxt/content',
-      'nuxt-og-image',
-      'nuxt-llms'
-    ],
-  
-    css: ['~/assets/css/main.css']
-  })
-  ```
-  :::
-
 #top
   :::hero-background
   :::
 
+  :::u-color-mode-image
+  ---
+  class: w-full h-[1000px] object-cover object-center overflow-hidden
+  dark: https://empirecityconstruction.vercel.app/1_E_66th/office1.jpg
+  light: https://empirecityconstruction.vercel.app/1_E_66th/living1.jpg
+  sizes: 100vw
+  ---
+  :::
+
+  :::stars-bg
+  :::
+
 #title
-Empire City [Construction]{.text-primary}.
+EMPIRE CITY [CONSTRUCTION]{.text-primary}
 
 #description
 Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
