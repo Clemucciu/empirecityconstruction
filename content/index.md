@@ -142,9 +142,8 @@ Powered by Nuxt UI components
       variant: subtle
       icon: i-simple-icons-github
   class: dark:bg-neutral-950
-  description: Join thousands of developers building with Nuxt and Nuxt UI. Get
-    this template and start shipping today.
-  title: Ready to build an amazing documentation?
+  description: Let's gather inspiration pictures and start building strong foundations
+  title: Ready to work on your dream project?
   ---
     ::::stars-bg
     ::::
