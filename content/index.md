@@ -28,7 +28,7 @@ class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
 EMPIRE CITY [CONSTRUCTION]{.text-primary}
 
 #description
-Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
+The Empire City Construction team aims to deliver quality and premium customer service to each of our clients. Our design-build company has grown a reputation of being a “Construction Concierge” from being on call for the minor task to troubleshooting major issues that arise at the most inconvenient hour
 
 #links
   :::u-button{size="xl" to="/" trailing-icon="i-lucide-house"}
@@ -55,172 +55,77 @@ class: dark:bg-neutral-950
 #title
 Powered by Nuxt UI components
 
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: lg
-  target: _blank
-  to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
-  trailingIcon: i-lucide-arrow-right
-  variant: subtle
-  ---
-  Explore Nuxt UI
-  :::
-
 #features
-  :::u-page-feature
+  :::u-page-card
   ---
-  icon: i-lucide-palette
-  ---
-  #title
-  100+ UI Components
-  
-  #description
-  Access the complete Nuxt UI component library. From badges to modals, everything styled and accessible out of the box.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-type
+  icon: i-lucide-hammer
+  spotlight: true
   ---
   #title
-  Beautiful Typography
+  Full General Contracting Services
   
   #description
-  Pre-styled prose components with perfect visual harmony. No need for @tailwindcss/typography - get precise control over every element.
+  Commercial and Residential Projects
   :::
 
-  :::u-page-feature
+  :::u-page-card
   ---
-  icon: i-lucide-layers
+  icon: i-lucide-vector-square
+  spotlight: true
   ---
   #title
-  Rich Prose Components
+  Architectural and Design Services
   
   #description
-  Accordions, cards, callouts, tabs, steps, code blocks, and more - all provided by Nuxt UI for interactive documentation.
+  Permits, Code Compliance, Blueprints
   :::
 
-  :::u-page-feature
+  :::u-page-card
   ---
   icon: i-lucide-search
+  spotlight: true
   ---
   #title
-  Built-in Search
+  Engineering Services
   
   #description
-  Full-text search with ContentSearch component. No need for Algolia - instant, relevant results with keyboard shortcuts (⌘K).
+  Building Surveys, Structural, Mechanical and Building Envelope Engineering Services
   :::
 
-  :::u-page-feature
+  :::u-page-card
   ---
-  icon: i-lucide-navigation
+  icon: i-lucide-diff
+  spotlight: true
   ---
   #title
-  Smart Navigation
+  Planning and Estimating
   
   #description
-  Auto-generated navigation with ContentNavigation and ContentToc components. Sticky table of contents and prev/next links.
+  Schematic Design and Construction Budgeting
   :::
 
-  :::u-page-feature
+  :::u-page-card
   ---
-  icon: i-lucide-moon
+  icon: i-lucide-wrench
+  spotlight: true
   ---
   #title
-  Dark Mode Ready
+  Structural & MEP
   
   #description
-  Automatic theme switching with smooth transitions. Respects system preferences and remembers user choice.
-  :::
-::
-
-::u-page-section
----
-class: dark:bg-neutral-950
----
-#title
-Enhanced with Nuxt Content
-
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: lg
-  target: _blank
-  to: https://content.nuxt.com/docs/getting-started/installation
-  trailingIcon: i-lucide-arrow-right
-  variant: subtle
-  ---
-  Explore Nuxt Content
+  Structural Steel, Carpentry and Drywall, Masonry, Roofing, Mechanical, Electrical, Plumbing
   :::
 
-#features
-  :::u-page-feature
+  :::u-page-card
   ---
-  icon: i-simple-icons-markdown
+  icon: i-lucide-palette
+  spotlight: true
   ---
   #title
-  MDC Enhanced Markdown
+  Finishes
   
   #description
-  Write in Markdown while embedding Vue components. Seamlessly integrate interactive elements in your content.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-file-text
-  ---
-  #title
-  File-based Routing
-  
-  #description
-  Organize content in folders and files. Your documentation structure automatically becomes your navigation.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-code
-  ---
-  #title
-  Syntax Highlighting
-  
-  #description
-  Beautiful code blocks with language detection, line numbers, and copy buttons. Support for 100+ languages.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-database
-  ---
-  #title
-  Content Database
-  
-  #description
-  Query your content with a MongoDB-like API. Filter, sort, and search through your documentation programmatically.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-file-code
-  ---
-  #title
-  Frontmatter Support
-  
-  #description
-  Add metadata to your content files. Define SEO tags, navigation properties, and custom fields.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-git-branch
-  ---
-  #title
-  Version Control
-  
-  #description
-  Content lives in your repository. Branch, review, and deploy documentation alongside your code.
+  Wood Flooring, Stone Fabrication & Tile Work, Plaster & Paint
   :::
 ::
 
