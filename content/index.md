@@ -53,7 +53,10 @@ The Empire City Construction team aims to deliver quality and premium customer s
 class: dark:bg-neutral-950
 ---
 #title
-Powered by Nuxt UI components
+Everything You Need to Design and/or Build your Masterpiece
+
+#description
+Focus on your unique expectations while we handle the heavy load of production
 
 #features
   :::u-page-card
