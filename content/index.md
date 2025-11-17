@@ -31,10 +31,21 @@ EMPIRE CITY [CONSTRUCTION]{.text-primary}
 The Empire City Construction team aims to deliver quality and premium customer service to each of our clients. Our design-build company has grown a reputation of being a “Construction Concierge” from being on call for the minor task to troubleshooting major issues that arise at the most inconvenient hour
 
 #links
-  :::u-button{size="xl" to="/" trailing-icon="i-lucide-house"}
-  Create
+  :::u-button{size="xl" to="/" icon="i-lucide-land-plot"}
+  Survey
   :::
 
+  :::u-button
+  ---
+  color: primary
+  icon: i-lucide-layers-2
+  size: xl
+  target: _blank
+  to: /
+  variant: outline
+  ---
+  Design
+  :::
   :::u-button
   ---
   color: neutral
@@ -42,9 +53,9 @@ The Empire City Construction team aims to deliver quality and premium customer s
   size: xl
   target: _blank
   to: /
-  variant: outline
+  variant: subtle
   ---
-  Our work
+  Built
   :::
 ::
 
@@ -136,17 +147,23 @@ Focus on your unique expectations while we handle the heavy load of production
   :::u-page-c-t-a
   ---
   links:
-    - label: Start building
+    - label: Survey
       to: /about
-      trailingIcon: i-lucide-arrow-right
-    - label: View on GitHub
-      to: https://github.com/nuxt-ui-templates/docs
+      icon: i-lucide-land-plot
+    - label: Design
+      to: /
       target: _blank
       variant: subtle
-      icon: i-simple-icons-github
+      icon: i-lucide-layers-2   
+    - label: Built
+      to: /
+      target: _blank
+      variant: subtle
+      icon: i-lucide-layers
+      color: neutral
   class: dark:bg-neutral-950
   description: Let's gather inspiration pictures and start building strong foundations
-  title: Ready to work on your dream project?
+  title: Ready to work on your Project?
   ---
     ::::stars-bg
     ::::
