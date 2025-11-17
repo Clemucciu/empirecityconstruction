@@ -1,8 +1,15 @@
 <script setup lang="ts">
 const columns = [{
+  label: 'SURVEY',
+  children: [{
+    label: 'Probes & Investigations'
+  }, {
+    label: 'Existing Conditions Documentation'
+  }]
+}, {
   label: 'DESIGN',
   children: [{
-    label: 'Permits, Surveys & Estimates'
+    label: 'Permits & Estimates'
   }, {
     label: '2D Blueprints & 3D Renderings'
   }]
@@ -18,7 +25,7 @@ const columns = [{
 
 <template>
   <USeparator
-    icon="i-lucide-layers-3"
+    color="primary"
     class="h-px"
   />
 
