@@ -42,5 +42,8 @@ export default defineAppConfig({
         target: '_blank'
       }]
     }
+  },
+  icon: {
+    mode: 'component'
   }
 })
