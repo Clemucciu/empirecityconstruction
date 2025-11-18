@@ -31,7 +31,7 @@ EMPIRE CITY [CONSTRUCTION]{.text-primary}
 The Empire City Construction team aims to deliver quality and premium customer service to each of our clients. Our design-build company has grown a reputation of being a “Construction Concierge” from being on call for the minor task to troubleshooting major issues that arise at the most inconvenient hour
 
 #links
-  :::u-button{size="xl" to="/" icon="i-lucide-land-plot"}
+  :::u-button{icon="i-lucide-land-plot" size="xl" to="/"}
   Survey
   :::
 
@@ -46,6 +46,7 @@ The Empire City Construction team aims to deliver quality and premium customer s
   ---
   Design
   :::
+
   :::u-button
   ---
   color: neutral
@@ -72,8 +73,8 @@ Focus on your unique expectations while we handle the heavy load of production
 #features
   :::u-page-card
   ---
-  icon: i-lucide-hammer
   spotlight: true
+  icon: i-lucide-hammer
   ---
   #title
   Full General Contracting Services
@@ -84,8 +85,8 @@ Focus on your unique expectations while we handle the heavy load of production
 
   :::u-page-card
   ---
-  icon: i-lucide-vector-square
   spotlight: true
+  icon: i-lucide-vector-square
   ---
   #title
   Architectural and Design Services
@@ -96,8 +97,8 @@ Focus on your unique expectations while we handle the heavy load of production
 
   :::u-page-card
   ---
-  icon: i-lucide-search
   spotlight: true
+  icon: i-lucide-search
   ---
   #title
   Engineering Services
@@ -108,8 +109,8 @@ Focus on your unique expectations while we handle the heavy load of production
 
   :::u-page-card
   ---
-  icon: i-lucide-diff
   spotlight: true
+  icon: i-lucide-diff
   ---
   #title
   Planning and Estimating
@@ -120,8 +121,8 @@ Focus on your unique expectations while we handle the heavy load of production
 
   :::u-page-card
   ---
-  icon: i-lucide-wrench
   spotlight: true
+  icon: i-lucide-wrench
   ---
   #title
   Structural & MEP
@@ -132,8 +133,8 @@ Focus on your unique expectations while we handle the heavy load of production
 
   :::u-page-card
   ---
-  icon: i-lucide-palette
   spotlight: true
+  icon: i-lucide-palette
   ---
   #title
   Finishes
@@ -154,7 +155,7 @@ Focus on your unique expectations while we handle the heavy load of production
       to: /
       target: _blank
       variant: subtle
-      icon: i-lucide-layers-2   
+      icon: i-lucide-layers-2
     - label: Built
       to: /
       target: _blank
