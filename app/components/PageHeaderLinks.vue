@@ -18,7 +18,7 @@ const items = [
       copy(mdPath.value)
       toast.add({
         title: 'Copied to clipboard',
-        icon: 'i-lucide-check-circle'
+        icon: 'i-lucide-check'
       })
     }
   },
@@ -36,7 +36,7 @@ const items = [
   },
   {
     label: 'Open in Claude',
-    icon: 'i-simple-icons:anthropic',
+    icon: 'i-simple-icons:claude',
     target: '_blank',
     to: `https://claude.ai/new?q=${encodeURIComponent(`Read ${mdPath.value} so I can ask questions about it.`)}`
   }
