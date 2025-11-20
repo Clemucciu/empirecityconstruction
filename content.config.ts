@@ -32,7 +32,8 @@ export default defineContentConfig({
         title: z.string().nonempty(),
         description: z.string(),
         date: z.date(),
-        image: z.string()
+        image: z.string(),
+        badge: z.string().optional()
       })
     })
   }

@@ -9,6 +9,9 @@ export default defineAppConfig({
         root: 'border-t border-default',
         left: 'text-sm text-muted'
       }
+    },
+    icons: {
+      search: 'i-lucide-land-plot'
     }
   },
   seo: {

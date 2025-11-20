@@ -21,7 +21,7 @@ defineOgImageComponent('Docs')
 
 <template>
   <UContainer>
-    <div class="w-full h-[630px]" sizes="100vw">
+    <div class="w-full h-[630px]">
       <UColorModeImage
         class="w-full h-full object-cover object-center rounded-lg overflow-hidden"
         light="/W_Hotel-225_River_St/W_17.jpg"
@@ -29,34 +29,21 @@ defineOgImageComponent('Docs')
       />
     </div>
 
-    <UPage>
-      <UPageHeader
+    <UPageHeader
         v-bind="page"
         class="py-[50px]"
-      />
+    />
 
-      <UPageBody>
-      <UChangelogVersions>
-        <UChangelogVersion
-          v-for="(version, index) in versions"
-          :key="index"
-          v-bind="version"
-        >
-          <template>
-            <div class="hover">
-              <ContentRenderer :value="version.body" />
-            </div>
-          </template>
-        </UChangelogVersion>
-      </UChangelogVersions>
-      </UPageBody>
-
-      <UPageAside>
-        <UContentNavigation
-          highlight
-          :navigation="navigation"
-        />
-      </UPageAside>
-    </UPage>
+    <UPageBody>
+        <UChangelogVersions>
+            <UChangelogVersion
+                v-for="(version, index) in versions"
+                :key="index"
+                v-bind="version"
+                :to="version.path"
+            >
+            </UChangelogVersion>
+        </UChangelogVersions>
+    </UPageBody>
   </UContainer>
 </template>
