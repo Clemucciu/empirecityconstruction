@@ -39,17 +39,57 @@ const { header } = useAppConfig()
       #left
     >
       <NuxtLink :to="header?.to || '/'">
-        <AppLogo class="w-auto h-9 shrink-0" />
+        <AppLogo class="w-auto h-8 shrink-0" />
       </NuxtLink>
+
+      <UColorModeSwitch v-if="header?.colorMode" />
     </template>
 
     <template #right>
       <UContentSearchButton
         v-if="header?.search"
         class="lg:hidden"
+        variant="outline"
+        label="Search"
       />
 
-      <UColorModeButton v-if="header?.colorMode" />
+      <UButton
+        trailing-icon="i-lucide-layers-2"
+        to="/"
+        variant="subtle"
+      >
+        <span class="hidden sm:inline">
+          Submit
+          <span class="hidden md:inline">
+            Design
+          </span>
+          <span class="hidden xl:inline">
+            / Specification
+          </span>
+          <span class="hidden 2xl:inline">
+            for Quote
+          </span>
+        </span>
+      </UButton>
+
+      <UButton
+        icon="i-lucide-layers"
+        to="/built"
+        color="primary"
+      >
+        <span class="hidden sm:inline">
+          Latest
+          <span class="hidden 2xl:inline">
+            Published
+          </span>
+          <span class="hidden xl:inline">
+            Projects
+          </span>
+          <span class="hidden md:inline">
+            Built
+          </span>
+        </span>
+      </UButton>
     </template>
 
     <template #body>
