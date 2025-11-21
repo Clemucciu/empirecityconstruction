@@ -107,6 +107,8 @@ const links = computed(() => {
             />
           </div>
         </template>
+
+        <StarsBg />
       </UContentToc>
     </template>
   </UPage>
