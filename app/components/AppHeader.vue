@@ -39,7 +39,7 @@ const { header } = useAppConfig()
       #left
     >
       <NuxtLink :to="header?.to || '/'">
-        <AppLogo class="w-auto h-9 shrink-0" />
+        <AppLogo class="w-auto h-8 shrink-0" />
       </NuxtLink>
 
       <UColorModeSwitch v-if="header?.colorMode" />
@@ -54,26 +54,28 @@ const { header } = useAppConfig()
       />
 
       <UButton
-        trailing-icon="i-lucide-layers-2"
+        trailing-icon="i-lucide-house-plus"
+        icon="i-lucide-layers-2"
         to="/"
         variant="subtle"
       >
         <span class="hidden sm:inline">
-          Submit
-          <span class="hidden md:inline">
-            Design
+          Create
+          <span class="hidden 2xl:inline">
+            Your
           </span>
           <span class="hidden xl:inline">
-            / Specification
+            New
           </span>
-          <span class="hidden 2xl:inline">
-            for Quote
+          <span class="hidden md:inline">
+            Project
           </span>
         </span>
       </UButton>
 
       <UButton
         icon="i-lucide-layers"
+        trailing-icon="i-lucide-calendar-sync"
         to="/built"
         color="primary"
       >
