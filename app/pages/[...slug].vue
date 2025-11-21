@@ -109,11 +109,5 @@ const links = computed(() => {
         </template>
       </UContentToc>
     </template>
-
-     <template
-      v-if="page?.body?.toc?.links?.length"
-      #right
-    >
-    </template>
   </UPage>
 </template>
