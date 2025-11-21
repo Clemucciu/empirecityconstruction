@@ -42,7 +42,10 @@ const { header } = useAppConfig()
         <AppLogo class="w-auto h-9 shrink-0" />
       </NuxtLink>
 
-      <UColorModeSwitch v-if="header?.colorMode" class="hidden sm:inline" />
+      <span class="hidden sm:inline">
+        &nbsp
+      </span>
+      <UColorModeSwitch v-if="header?.colorMode" />
     </template>
 
     <template #right>
@@ -54,8 +57,8 @@ const { header } = useAppConfig()
       />
 
       <UButton
-        icon="i-lucide-mail-plus"
-        trailing-icon="i-lucide-layers-2"
+        trailing-icon="i-lucide-mail-plus"
+        icon="i-lucide-layers-2"
         to="/"
         variant="subtle"
       >
@@ -74,8 +77,7 @@ const { header } = useAppConfig()
       </UButton>
 
       <UButton
-        icon="i-lucide-layers"
-        trailing-icon="i-lucide-house"
+        trailing-icon="i-lucide-layers"
         to="/built"
         color="primary"
       >
