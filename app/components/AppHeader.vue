@@ -42,7 +42,9 @@ const { header } = useAppConfig()
         <AppLogo class="w-auto h-8 shrink-0" />
       </NuxtLink>
 
-      <UColorModeSwitch v-if="header?.colorMode" />
+      <UColorModeSwitch v-if="header?.colorMode" class="hidden md:inline" />
+
+      <UColorModeButton v-if="header?.colorMode" class="md:hidden" />
     </template>
 
     <template #right>
