@@ -36,20 +36,6 @@ const headline = computed(() => findPageHeadline(navigation?.value, page.value?.
 defineOgImageComponent('Docs', {
   headline: headline.value
 })
-
-const links = computed(() => {
-  const links = []
-  if (toc?.bottom?.edit) {
-    links.push({
-      icon: 'i-lucide-land-plot',
-      label: 'Survey',
-      to: `${toc.bottom.edit}/${page?.value?.stem}.${page?.value?.extension}`,
-      target: '_blank'
-    })
-  }
-
-  return [...links, ...(toc?.bottom?.links || [])].filter(Boolean)
-})
 </script>
 
 <template>
@@ -82,7 +68,6 @@ const links = computed(() => {
     </UPageBody>
 
     <template
-      v-if="page?.body?.toc?.links?.length"
       #left
     >
       <UContentToc
@@ -90,7 +75,6 @@ const links = computed(() => {
         :links="page.body?.toc?.links"
       >
         <template
-          v-if="toc?.bottom"
           #bottom
         >
           <div
@@ -106,9 +90,9 @@ const links = computed(() => {
               :navigation="navigation"
             />
           </div>
-        </template>
 
-        <StarsBg />
+          <StarsBg />
+        </template>
       </UContentToc>
     </template>
   </UPage>
