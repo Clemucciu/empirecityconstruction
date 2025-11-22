@@ -29,22 +29,7 @@ export default defineAppConfig({
     colorMode: true
   },
   toc: {
-    title: 'Table of Contents',
-    bottom: {
-      title: 'Request Forms',
-      edit: 'https://github.com/nuxt-ui-templates/docs/edit/main/content',
-      links: [{
-        icon: 'i-lucide-layers-2',
-        label: 'Design',
-        to: 'https://github.com/nuxt/ui',
-        target: '_blank'
-      }, {
-        icon: 'i-lucide-layers',
-        label: 'Build',
-        to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt',
-        target: '_blank'
-      }]
-    }
+    title: 'On this page',
   },
   icon: {
     mode: 'component'

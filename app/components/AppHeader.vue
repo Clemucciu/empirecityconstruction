@@ -45,7 +45,7 @@ const { header } = useAppConfig()
       <span class="hidden sm:inline">
         &nbsp
       </span>
-      <UColorModeSwitch v-if="header?.colorMode" />
+      <UColorModeSwitch v-if="header?.colorMode" size="xs" />
     </template>
 
     <template #right>
@@ -57,8 +57,8 @@ const { header } = useAppConfig()
       />
 
       <UButton
-        trailing-icon="i-lucide-mail-plus"
-        icon="i-lucide-layers-2"
+        icon="i-lucide-image-plus"
+        trailing-icon="i-lucide-layers-2"
         to="/"
         variant="subtle"
       >
