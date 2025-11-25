@@ -34,10 +34,10 @@ The Empire City Construction team aims to deliver quality and premium customer s
   :::u-button
   ---
   color: primary
-  trailing-icon: i-lucide-layers-2
   size: xl
   target: _blank
   to: /
+  trailing-icon: i-lucide-layers-2
   variant: subtle
   ---
   Design
