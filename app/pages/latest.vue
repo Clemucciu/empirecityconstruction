@@ -4,7 +4,7 @@ import type { ContentNavigationItem } from '@nuxt/content'
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 const route = useRoute()
 
-const { data: page } = await useAsyncData('built', () => queryCollection('built').first())
+const { data: page } = await useAsyncData('latest', () => queryCollection('latest').first())
 const { data: versions } = await useAsyncData(route.path, () => queryCollection('versions').order('date', 'DESC').all())
 
 const title = page.value?.seo?.title || page.value?.title

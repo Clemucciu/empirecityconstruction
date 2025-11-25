@@ -21,8 +21,8 @@ export default defineContentConfig({
         })).optional()
       })
     }),
-    built: defineCollection({
-      source: '3.built.yml',
+    latest: defineCollection({
+      source: '0.latest.yml',
       type: 'page'
     }),
     versions: defineCollection({
