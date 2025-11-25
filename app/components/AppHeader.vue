@@ -58,8 +58,8 @@ const { header } = useAppConfig()
       />
 
       <UButton
-        icon="i-lucide-image-plus"
-        trailing-icon="i-lucide-layers-2"
+        trailing-icon="i-lucide-image-plus"
+        icon="i-lucide-layers-2"
         to="/about/create"
         variant="subtle"
       >
@@ -79,7 +79,7 @@ const { header } = useAppConfig()
 
       <UButton
         trailing-icon="i-lucide-layers"
-        to="/built"
+        to="/latest"
         color="primary"
       >
         <span class="hidden sm:inline">
