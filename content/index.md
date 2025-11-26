@@ -17,7 +17,6 @@ class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
   class: w-full h-[1000px] object-cover object-center overflow-hidden
   dark: https://empirecityconstruction.vercel.app/1_E_66th/office1.jpg
   light: https://empirecityconstruction.vercel.app/1_E_66th/living1.jpg
-  sizes: 100vw
   ---
   :::
 
@@ -36,22 +35,24 @@ The Empire City Construction team aims to deliver quality and premium customer s
   color: primary
   size: xl
   target: _blank
-  to: /
-  trailing-icon: i-lucide-layers-2
+  to: /about/create
+  icon: i-lucide-layers-2
+  trailing-icon: i-lucide-image-plus
   variant: subtle
   ---
-  Design
+  Upload Design
   :::
 
   :::u-button
   ---
   color: primary
   icon: i-lucide-layers
+  trailing-icon: i-lucide-house-plus
   size: xl
   target: _blank
-  to: /
+  to: /latest
   ---
-  Built
+  Latest Built
   :::
 ::
 
@@ -143,16 +144,18 @@ Focus on your unique expectations while we handle the heavy load of production
   :::u-page-c-t-a
   ---
   links:
-    - label: Design
-      to: /
+    - label: Upload Design
+      to: /about/create
       target: _blank
       variant: subtle
-      trailing-icon: i-lucide-layers-2
-    - label: Built
+      icon: i-lucide-layers-2
+      trailing-icon: i-lucide-image-plus
+    - label: Latest Built
       to: /
       target: _blank
       color: primary
       icon: i-lucide-layers
+      trailing-icon: i-lucide-house-plus
   class: dark:bg-neutral-950
   description: Let's gather inspiration pictures and start building strong foundations
   title: Ready to work on your Project?
