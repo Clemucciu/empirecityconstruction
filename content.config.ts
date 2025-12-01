@@ -8,9 +8,16 @@ export default defineContentConfig({
     }),
     docs: defineCollection({
       type: 'page',
+      schema: z.object({
+        title: z.string().nonempty(),
+        description: z.string(),
+        date: z.date(),
+        image: z.string(),
+        badge: z.string().optional()
+      }),
       source: {
         include: '**',
-        exclude: ['index.md','0.latest.yml']
+        exclude: ['index.md','latest.yml']
       },
       schema: z.object({
         links: z.array(z.object({
@@ -22,11 +29,11 @@ export default defineContentConfig({
       })
     }),
     latest: defineCollection({
-      source: '0.latest.yml',
+      source: 'latest.yml',
       type: 'page'
     }),
-    versions: defineCollection({
-      source: '3.built/**/*',
+    latests: defineCollection({
+      source: '**/*',
       type: 'page',
       schema: z.object({
         title: z.string().nonempty(),
