@@ -11,7 +11,8 @@ export default defineAppConfig({
       }
     },
     icons: {
-      search: 'i-lucide-land-plot'
+      search: 'i-lucide-land-plot',
+      menu: 'i-lucide-layers'
     }
   },
   seo: {
