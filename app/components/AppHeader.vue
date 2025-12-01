@@ -46,7 +46,7 @@ const { header } = useAppConfig()
       <span class="hidden sm:inline">
         &nbsp
       </span>
-      <UColorModeSwitch v-if="header?.colorMode" size="xs" />
+      <UColorModeSwitch v-if="header?.colorMode" size="sm" />
     </template>
 
     <template #right>
