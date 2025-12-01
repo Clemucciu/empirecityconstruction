@@ -58,13 +58,13 @@ const { header } = useAppConfig()
       />
 
       <UButton
-        trailing-icon="i-lucide-image-plus"
-        icon="i-lucide-layers-2"
+        icon="i-lucide-image-plus"
+        trailing-icon="i-lucide-layers-2"
         to="/about/create"
         variant="subtle"
       >
         <span class="hidden sm:inline">
-          Create
+          Upload
           <span class="hidden 2xl:inline">
             Your
           </span>
@@ -78,7 +78,7 @@ const { header } = useAppConfig()
       </UButton>
 
       <UButton
-        trailing-icon="i-lucide-layers"
+        icon="i-mdi-recent"
         to="/latest"
         color="primary"
       >
