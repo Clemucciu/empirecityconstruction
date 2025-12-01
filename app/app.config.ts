@@ -12,7 +12,9 @@ export default defineAppConfig({
     },
     icons: {
       search: 'i-lucide-land-plot',
-      menu: 'i-lucide-layers'
+      menu: 'i-lucide-layers',
+      light: 'i-lucide-land-plot',
+      dark: 'i-lucide-layers-2'
     }
   },
   seo: {
