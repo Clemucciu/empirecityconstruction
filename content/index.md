@@ -15,8 +15,8 @@ class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
   :::u-color-mode-image
   ---
   class: w-full h-[1000px] object-cover object-center overflow-hidden
-  dark: https://empirecityconstruction.vercel.app/1_E_66th/office1.jpg
-  light: https://empirecityconstruction.vercel.app/1_E_66th/living1.jpg
+  dark: /1. Upper East Side Appartment/office1.jpg
+  light: /1. Upper East Side Appartment/living1.jpg
   ---
   :::
 
@@ -151,7 +151,7 @@ Focus on your unique expectations while we handle the heavy load of production
       trailing-icon: i-lucide-layers-2
       icon: i-lucide-image-plus
     - label: Latest Built
-      to: /
+      to: /latest
       target: _blank
       color: primary
       trailing-icon: i-lucide-layers
