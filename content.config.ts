@@ -8,18 +8,16 @@ export default defineContentConfig({
     }),
     docs: defineCollection({
       type: 'page',
-      schema: z.object({
-        title: z.string().nonempty(),
-        description: z.string(),
-        date: z.date(),
-        image: z.string(),
-        badge: z.string().optional()
-      }),
       source: {
         include: '**',
         exclude: ['index.md','latest.yml']
       },
       schema: z.object({
+        title: z.string().nonempty(),
+        description: z.string(),
+        date: z.date(),
+        image: z.string(),
+        badge: z.string().optional(),
         links: z.array(z.object({
           label: z.string(),
           icon: z.string(),
@@ -31,17 +29,6 @@ export default defineContentConfig({
     latest: defineCollection({
       source: 'latest.yml',
       type: 'page'
-    }),
-    latests: defineCollection({
-      source: '**/*',
-      type: 'page',
-      schema: z.object({
-        title: z.string().nonempty(),
-        description: z.string(),
-        date: z.date(),
-        image: z.string(),
-        badge: z.string().optional()
-      })
     })
   }
 })

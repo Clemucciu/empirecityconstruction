@@ -6,7 +6,7 @@ const route = useRoute()
 const today = new Date();
 
 const { data: page } = await useAsyncData('latest', () => queryCollection('latest').first())
-const { data: latests } = await useAsyncData(route.path, () => queryCollection('latests').where('date', '<', today).order('date', 'DESC').all())
+const { data: docs } = await useAsyncData(route.path, () => queryCollection('docs').where('date', '<', today).order('date', 'DESC').all())
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
@@ -38,7 +38,7 @@ defineOgImageComponent('Docs')
     <UPageBody>
         <UChangelogVersions>
             <UChangelogVersion
-                v-for="(version, index) in latests?.filter(v => v.date)"
+                v-for="(version, index) in docs?.filter(v => v.date)"
                 :key="index"
                 v-bind="version"
                 :to="version.path"
