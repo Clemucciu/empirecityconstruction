@@ -25,8 +25,8 @@ defineOgImageComponent('Docs')
     <div class="w-full h-[630px]">
       <UColorModeImage
         class="w-full h-full object-cover object-center rounded-lg overflow-hidden"
-        light="/2. W Hotel - 225 River St/W_17.jpg"
-        dark="/2. W Hotel - 225 River St/W_55.jpg"
+        light="/2.W_Hotel-225 River St/W_17.jpg"
+        dark="/2.W_Hotel-225 River St/W_55.jpg"
       />
     </div>
 
