@@ -9,11 +9,11 @@ defineProps<{
 
 <template>
   <component :is="card ? UCard : 'div'">
-    <div class="grid grid-cols-3 items-center w-full gap-x-8">
-      <div :class="{ 'order-2': reverse }">
+    <div class="grid grid-cols-1 lg:grid-cols-3 items-center w-full gap-y-6 lg:gap-x-8">
+      <div :class="{ 'lg:order-2': reverse }" class="w-full">
         <slot name="image" />
       </div>
-      <div class="col-span-2">
+      <div class="w-full lg:col-span-2">
         <slot />
       </div>
     </div>
