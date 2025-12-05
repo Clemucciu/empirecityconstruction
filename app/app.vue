@@ -45,7 +45,7 @@ provide('navigation', navigation)
       <LazyUContentSearch
         :files="files"
         :navigation="navigation"
-        icon="i-lucide-text-cursor-input"
+        icon="i-lucide-text-search"
       />
     </ClientOnly>
   </UApp>
