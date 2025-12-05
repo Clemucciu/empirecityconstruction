@@ -59,7 +59,7 @@ const { header } = useAppConfig()
 
       <UButton
         icon="i-lucide-image-plus"
-        to="/about/create"
+        to="/services/create"
         variant="subtle"
       >
         <span class="hidden sm:inline">
@@ -78,7 +78,7 @@ const { header } = useAppConfig()
 
       <UButton
         icon="i-mdi-recent"
-        to="/latest"
+        to="built/latest"
         color="primary"
       >
         <span class="hidden sm:inline">

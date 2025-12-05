@@ -13,8 +13,8 @@ useSeoMeta({
   ogTitle: title,
   description,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/docs-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/docs-light.png'
+  ogImage: 'https://empirecityconstruction.vercel.app/1.Upper_East_Side_Appartment/living1.jpg',
+  twitterImage: 'https://empirecityconstruction.vercel.app/1.Upper_East_Side_Appartment/living1.jpg'
 })
 </script>
 
