@@ -59,7 +59,6 @@ const { header } = useAppConfig()
 
       <UButton
         icon="i-lucide-image-plus"
-        trailing-icon="i-lucide-layers-2"
         to="/about/create"
         variant="subtle"
       >
