@@ -45,7 +45,7 @@ provide('navigation', navigation)
       <LazyUContentSearch
         :files="files"
         :navigation="navigation"
-        icon="i-lucide-land-plot"
+        icon="i-lucide-text-search"
       />
     </ClientOnly>
   </UApp>
