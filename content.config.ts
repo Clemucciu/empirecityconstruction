@@ -10,7 +10,7 @@ export default defineContentConfig({
       type: 'page',
       source: {
         include: '**',
-        exclude: ['index.md','latest.yml']
+        exclude: ['index.md']
       },
       schema: z.object({
         title: z.string().nonempty(),
@@ -27,7 +27,7 @@ export default defineContentConfig({
       })
     }),
     latest: defineCollection({
-      source: 'latest.yml',
+      source: '3.built/0.latest.yml',
       type: 'page'
     })
   }

@@ -11,7 +11,7 @@ export default defineAppConfig({
       }
     },
     icons: {
-      search: 'i-lucide-land-plot',
+      search: 'i-lucide-text-search',
       menu: 'i-lucide-layers',
       light: 'i-lucide-land-plot',
       dark: 'i-lucide-layers-2'
