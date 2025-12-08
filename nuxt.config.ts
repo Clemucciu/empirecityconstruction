@@ -58,23 +58,7 @@ export default defineNuxtConfig({
     full: {
       title: 'Empire City Construction',
       description: 'This is the full documentation for Empire City Construction.'
-    },
-    sections: [
-      {
-        title: 'About',
-        contentCollection: 'docs',
-        contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/about%' }
-        ]
-      },
-      {
-        title: 'Services',
-        contentCollection: 'docs',
-        contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/services%' }
-        ]
-      }
-    ]
+    }
   },
 
   studio: {

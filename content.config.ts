@@ -27,7 +27,7 @@ export default defineContentConfig({
       })
     }),
     latest: defineCollection({
-      source: '3.built/0.latest.yml',
+      source: '0.latest/index.yml',
       type: 'page'
     })
   }
