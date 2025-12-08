@@ -78,7 +78,7 @@ const { header } = useAppConfig()
 
       <UButton
         icon="i-mdi-recent"
-        to="built/latest"
+        to="/latest"
         color="primary"
       >
         <span class="hidden sm:inline">
