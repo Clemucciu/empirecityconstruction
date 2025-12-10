@@ -9,6 +9,7 @@ definePageMeta({
 const route = useRoute()
 const { toc } = useAppConfig()
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+const isNavigationCollapsed = ref(true)
 
 const { data: page } = await useAsyncData(route.path, () => queryCollection('docs').path(route.path).first())
 if (!page.value) {
@@ -75,19 +76,19 @@ defineOgImageComponent('Docs', {
         :links="page.body?.toc?.links"
       >
         <template
-          #bottom
+          #top
         >
           <div
             class="hidden lg:block space-y-6"
-            :class="{ '!mt-6': page.body?.toc?.links?.length }"
+            :class="{ '!mt-1': page.body?.toc?.links?.length }"
           >
-            <USeparator
-              type="dashed"
-            />
-
             <UContentNavigation
               highlight
               :navigation="navigation"
+            />
+
+            <USeparator
+              type="dashed"
             />
           </div>
 
