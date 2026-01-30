@@ -17,7 +17,6 @@ class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
   items:
     - /1.Upper_East_Side_Apartment/office1.jpg
     - /1.Upper_East_Side_Apartment/living1.jpg
-  class: w-full h-[1000px] object-cover object-center overflow-hidden
   ---
   :::
 
