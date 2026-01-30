@@ -33,11 +33,11 @@ The Empire City Construction team aims to deliver quality and premium customer s
   :::u-button
   ---
   color: primary
+  icon: i-lucide-image-plus
   size: xl
   target: _blank
   to: /services/create
   trailing-icon: i-lucide-layers-2
-  icon: i-lucide-image-plus
   variant: subtle
   ---
   Upload Design
@@ -47,10 +47,10 @@ The Empire City Construction team aims to deliver quality and premium customer s
   ---
   color: primary
   icon: i-mdi-recent
-  trailing-icon: i-lucide-layers
   size: xl
   target: _blank
   to: /latest
+  trailing-icon: i-lucide-layers
   ---
   Latest Built
   :::
