@@ -58,7 +58,7 @@ const normalizeItem = (item: string | CarouselItem) => {
       <img
         :src="normalizeItem(item).src"
         :alt="normalizeItem(item).alt"
-        class="h-[400px] rounded-lg object-cover object-center"
+        class="mt-8 h-[600px] rounded-lg object-cover object-center"
       />
     </UCarousel>
   </div>
