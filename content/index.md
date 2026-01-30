@@ -12,14 +12,6 @@ class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
   :::hero-background
   :::
 
-  :::u-carousel
-  ---
-  items:
-    - /1.Upper_East_Side_Apartment/office1.jpg
-    - /1.Upper_East_Side_Apartment/living1.jpg
-  ---
-  :::
-
   :::stars-bg
   :::
 
@@ -54,6 +46,15 @@ The Empire City Construction team aims to deliver quality and premium customer s
   ---
   Latest Built
   :::
+::
+
+::u-carousel
+---
+items:
+  - /1.Upper_East_Side_Apartment/office1.jpg
+  - /1.Upper_East_Side_Apartment/living1.jpg
+  - /1.Upper_East_Side_Apartment/living1.jpg
+---
 ::
 
 ::u-page-section
