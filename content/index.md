@@ -12,38 +12,27 @@ class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
   :::hero-background
   :::
 
-  :::u-color-mode-image
-  ---
-  class: w-full h-[400px] md:h-[800px] object-cover object-center overflow-hidden
-  dark: /1.Upper_East_Side_Apartment/office1.jpg
-  light: /1.Upper_East_Side_Apartment/living1.jpg
-  ---
+#title
+EMPIRE CITY [CONSTRUCTION]{.text-primary}
+
+  :::div{.w-full.object-cover.object-center.overflow-hidden}
+    ::::carousel
+    ---
+    dots: true
+    items:
+      - /1.Upper_East_Side_Apartment/AN_45.jpg
+      - /4.1_Gracie_Square/1GracieSquare_53.jpg
+      - /3.Upper_East_Side_Townhouse/UES_4.JPG
+      - /2.W_Hotel-225_River_St/W_09.jpg
+      - /5.Chelsea_Townhouse/Chelsea_TH_18.jpg
+      - /7.Barbizon/CAR_C_01.jpg
+    ---
+    ::::
   :::
 
   :::stars-bg
   :::
-
-#title
-EMPIRE CITY [CONSTRUCTION]{.text-primary}
-
-::div
----
-class: w-full object-cover object-center overflow-hidden
----
-  :::carousel
-  ---
-  dots: true
-  items:
-    - /1.Upper_East_Side_Apartment/AN_45.jpg
-    - /4.1_Gracie_Square/1GracieSquare_53.jpg
-    - /3.Upper_East_Side_Townhouse/UES_4.JPG
-    - /2.W_Hotel-225_River_St/W_09.jpg
-    - /5.Chelsea_Townhouse/Chelsea_TH_18.jpg
-    - /7.Barbizon/CAR_C_01.jpg
-  ---
-  :::
-::
-
+  
 #description
 The Empire City Construction team aims to deliver quality and premium customer service to each of our clients. Our design-build company has grown a reputation of being a “Construction Concierge” from being on call for the minor task to troubleshooting major issues that arise at the most inconvenient hour
 
