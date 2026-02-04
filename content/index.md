@@ -1,7 +1,7 @@
 ---
 seo:
   title: Empire City Construction
-  description: Design your space & let us make it happen
+  description: Design your space & let us make it a reality
 ---
 
 ::u-page-hero
@@ -14,7 +14,7 @@ class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
 
   :::u-color-mode-image
   ---
-  class: w-full h-[800px] object-cover object-center overflow-hidden
+  class: w-full h-[400px] md:h-[800px] object-cover object-center overflow-hidden
   dark: /1.Upper_East_Side_Apartment/office1.jpg
   light: /1.Upper_East_Side_Apartment/living1.jpg
   ---

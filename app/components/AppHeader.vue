@@ -58,9 +58,9 @@ const { header } = useAppConfig()
       />
 
       <UButton
-        icon="i-lucide-image-plus"
+        trailing-icon="i-lucide-image-plus"
         to="/services/create"
-        variant="subtle"
+        color="primary"
       >
         <span class="hidden sm:inline">
           Upload
@@ -79,7 +79,7 @@ const { header } = useAppConfig()
       <UButton
         icon="i-mdi-recent"
         to="/latest"
-        color="primary"
+        variant="subtle"
       >
         <span class="hidden sm:inline">
           Latest
