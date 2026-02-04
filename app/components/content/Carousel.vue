@@ -55,11 +55,13 @@ const normalizeItem = (item: string | CarouselItem) => {
       :items="items"
       :ui="{ item: 'basis-auto' }"
     >
-      <img
-        :src="normalizeItem(item).src"
-        :alt="normalizeItem(item).alt"
-        class="mt-8 h-[400px] md:h-[600px] rounded-lg object-cover object-center"
-      />
+      <NuxtLink :to="normalizeItem(item).src">
+        <NuxtImg
+          :src="normalizeItem(item).src"
+          :alt="normalizeItem(item).alt"
+          class="mt-8 h-[400px] md:h-[600px] rounded-lg object-cover object-center"
+        />
+      </NuxtLink>
     </UCarousel>
   </div>
 </template>
