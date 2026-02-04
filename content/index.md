@@ -15,6 +15,9 @@ class: dark:bg-gradient-to-b from-neutral-900 to-neutral-950
 #title
 EMPIRE CITY [CONSTRUCTION]{.text-primary}
 
+#description
+The Empire City Construction team aims to deliver quality and premium customer service to each of our clients. Our design-build company has grown a reputation of being a “Construction Concierge” from being on call for the minor task to troubleshooting major issues that arise at the most inconvenient hour
+
   :::div{.w-full.object-cover.object-center.overflow-hidden}
     ::::carousel
     ---
@@ -32,9 +35,6 @@ EMPIRE CITY [CONSTRUCTION]{.text-primary}
 
   :::stars-bg
   :::
-  
-#description
-The Empire City Construction team aims to deliver quality and premium customer service to each of our clients. Our design-build company has grown a reputation of being a “Construction Concierge” from being on call for the minor task to troubleshooting major issues that arise at the most inconvenient hour
 
 #links
   :::u-button
