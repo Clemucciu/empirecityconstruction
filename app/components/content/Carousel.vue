@@ -65,7 +65,7 @@ function select(index: number) {
       <img :src="item" class="mt-8 w-full h-[600px] md:h-[800px] rounded-lg object-cover object-center">
     </UCarousel>
 
-    <div class="flex h-10 md:h-25 justify-between gap-1 pt-3 mx-auto">
+    <div class="flex h-14 md:h-25 justify-between gap-1 pt-3 mx-auto">
       <div
         v-for="(item, index) in items"
         :key="index"
