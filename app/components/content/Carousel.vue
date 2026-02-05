@@ -1,14 +1,9 @@
 <script setup lang="ts">
 import type { PropType } from 'vue'
 
-interface CarouselItem {
-  src: string
-  alt?: string
-}
-
 defineProps({
   items: {
-    type: Array as PropType<(string | CarouselItem)[]>,
+    type: Array as PropType<(string[])>,
     required: true
   },
   autoplay: {
@@ -33,35 +28,54 @@ defineProps({
   }
 })
 
-const normalizeItem = (item: string | CarouselItem) => {
-  if (typeof item === 'string') {
-    return { src: item, alt: 'Gallery image' }
-  }
-  return item
+const carousel = useTemplateRef('carousel')
+const activeIndex = ref(0)
+
+function onClickPrev() {
+  activeIndex.value--
+}
+function onClickNext() {
+  activeIndex.value++
+}
+function onSelect(index: number) {
+  activeIndex.value = index
+}
+
+function select(index: number) {
+  activeIndex.value = index
+
+  carousel.value?.emblaApi?.scrollTo(index)
 }
 </script>
 
 <template>
-  <div
-    class="w-full overflow-hidden"
-  >
+  <div class="flex-1 w-full">
     <UCarousel
+      ref="carousel"
       v-slot="{ item }"
-      :loop="loop"
-      :arrows="arrows"
-      :dots="dots"
-      :autoplay="autoplay ? { delay } : false"
+      arrows
       auto-scroll
       :items="items"
+      :prev="{ onClick: onClickPrev }"
+      :next="{ onClick: onClickNext }"
+      class="w-full mx-auto"
       :ui="{ item: 'basis-auto' }"
+      @select="onSelect"
     >
-      <NuxtLink :to="normalizeItem(item).src">
-        <NuxtImg
-          :src="normalizeItem(item).src"
-          :alt="normalizeItem(item).alt"
-          class="mt-8 h-[400px] md:h-[600px] rounded-lg object-cover object-center"
-        />
-      </NuxtLink>
+      <img :src="item" class="mt-8 w-full h-[600px] md:h-[800px] rounded-lg object-cover object-center">
     </UCarousel>
+
+    <div class="flex h-10 md:h-25 justify-between gap-1 pt-3 mx-auto">
+      <div
+        v-for="(item, index) in items"
+        :key="index"
+        class="flex opacity-25 hover:opacity-100 transition-opacity"
+        :class="{ 'opacity-100': activeIndex === index }"
+        @click="select(index)"
+      >
+        <img :src="item" class="w-full rounded-lg">
+      </div>
+    </div>
   </div>
 </template>
+
