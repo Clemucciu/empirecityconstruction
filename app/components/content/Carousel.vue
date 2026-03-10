@@ -16,7 +16,7 @@ defineProps({
   },
   arrows: {
     type: Boolean,
-    default: true
+    default: false
   },
   dots: {
     type: Boolean,
@@ -53,7 +53,7 @@ function select(index: number) {
     <UCarousel
       ref="carousel"
       v-slot="{ item }"
-      arrows
+      :arrows="arrows"
       auto-scroll
       :items="items"
       :prev="{ onClick: onClickPrev }"
