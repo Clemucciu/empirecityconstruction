@@ -24,11 +24,10 @@ The Empire City Construction team aims to deliver quality and premium customer s
     dots: true
     items:
       - /1.Upper_East_Side_Apartment/AN_45.jpg
-      - /4.1_Gracie_Square/1GracieSquare_53.jpg
-      - /3.Upper_East_Side_Townhouse/UES_4.JPG
+      - /3.1_Gracie_Square/1GracieSquare_53.jpg
       - /2.W_Hotel-225_River_St/W_09.jpg
-      - /5.Chelsea_Townhouse/Chelsea_TH_18.jpg
-      - /7.Barbizon/CAR_C_01.jpg
+      - /4.Baja_Fresh_Lexington/_MG_0970.jpg
+      - /5.Barbizon/CAR_C_01.jpg
     ---
     ::::
   :::
